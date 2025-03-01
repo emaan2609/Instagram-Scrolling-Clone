@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-y: scroll;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.navbar .heading h2{
+text-align: left;
+margin-left: 85px;
+color: black;
+}
+.navbar .search input,button{
+    text-align: left;
+    border: 5px black;
+    border-radius: 5px;
+    font-size: 14px;
+    
+
+}
+.navbar .navbtns button{
+    
+   background:none;
+   border: none;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+   
+}
+.navbar .navbtns {
+    
+   
+   
+    margin-right: 10px;
+   
+}
+/*
+.post{
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+    margin:100px 520px;
+   
+}
+.post img{
+    margin: 40px 60px;
+    border-radius: 5px;
+}
+.post button,p{
+    display: inline-block;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+  cursor: pointer;
+font-size: 1.1rem;
+}*/
+#CameraIcon{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.559);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 100px 550px;
+    border-radius: 5px;
+}
+.profilehub{
+    
+    margin: 100px 400px;
+    height: 500px;
+    width: 700px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.profilehub .mydata{
+    display: flex;
+    
+}
+.profilehub .mydata img{
+    
+    border-radius: 50%;
+    height: 80px;
+    margin: 50px;
+   /*margin-right: 130px;*/
+    
+}
+.profilehub .mydata #username{
+    font-weight: bold;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.profilehub .mydata #upper{
+display: flex;
+margin-left: -80px;
+
+margin-top: 70px;
+    font-weight: bold;
+font-size: 1.2rem;
+}
+.profilehub .mydata #upper p{
+    margin-right: 35px;
+}
+.profilehub .datas{
+    display: flex;
+margin-left: 310px;
+
+}
+
+.profilehub .datas p{
+    margin-top: -55px;
+margin-right: 85px ;   
+    font-weight: bold;
+font-size: 1.2rem;  
+
+}
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.like-btn, .comment-btn, .share-btn {
+    margin: 5px 5px 0 0;        /* Space between buttons */
+    cursor: pointer;            /* Hand cursor on hover */
+    background: none;           /* No background */
+    border: none;               /* Remove button borders */
+    font-size: 1.2em;           /* Slightly larger icons */
+}
+
+.like-btn:hover, .comment-btn:hover, .share-btn:hover {
+    opacity: 0.7;               /* Hover effect for feedback */
+}
