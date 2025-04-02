@@ -97,12 +97,12 @@ font-size: 1.1rem;
 }
 .profilehub .mydata #username{
     font-weight: bold;
-    margin-left: 85px;
+    margin-left: 120px;
     margin-top: 50px;
 }
 .profilehub .mydata #upper{
 display: flex;
-margin-left: -80px;
+margin-left: -110px;
 
 margin-top: 70px;
     font-weight: bold;
